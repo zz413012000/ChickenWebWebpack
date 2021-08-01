@@ -7,18 +7,20 @@ class Header extends React.Component{
     }
     render(){
         return (
-        <div className="search-father">
-            <div className="search-child">
-                <input type="text" name="" id=""
-                placeholder="search"/>
-                <button>
-                    <i className="fas fa-search"></i>
-                </button>
-                <button className="search_pic">
-                    <div class="img"></div>
-                </button>
-            </div>
-        </div>
+            <header>
+                <div className="search-father">
+                    <div className="search-child">
+                        <input type="text" name="" id=""
+                        placeholder="search"/>
+                        <button>
+                            <i className="fas fa-search"></i>
+                        </button>
+                        <button className="search_pic">
+                            <div class="img"></div>
+                        </button>
+                    </div>
+                </div>
+            </header>
         )
     }
 }
