@@ -1,10 +1,11 @@
 const path=require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports={
     entry:"./src/index.js",
     output:{
         filename:"main.js",
         path:path.resolve(__dirname,"dist"),
-        publicPath: '/dist/',
+        publicPath: '/ChickenWebWebpack/dist/',
     },
     mode:"development",
     devServer:{
@@ -26,18 +27,18 @@ module.exports={
                     }
                 }
             },
-            {  
-                test: /\.(png|jpg|gif|jpe?g|svg)$/,  
-                use: [  
-                  {  
-                    loader: 'file-loader',  
-                    options: {  
-                      name: '[name].[ext]',  
-                      publicPath: './img',  
-                      emitFile: false  
-                    }    
-                  }  
-                ]  
+            {
+                test: /\.(png|jpg|gif|jpe?g|svg)$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                      name: '[name].[ext]',
+                      publicPath: './img',
+                    //   emitFile: false
+                    }  
+                  }
+                ]
             },
             // {
             //     test: /\.(png|jpg|gif|jpeg)$/,
@@ -50,5 +51,10 @@ module.exports={
             //     }]
             // }
         ]
-    }
+    },
+    plugins: [new HtmlWebpackPlugin({
+        title:"首頁",
+        filename:"index.html",
+        template:"./src/index.html"
+    })]
 }

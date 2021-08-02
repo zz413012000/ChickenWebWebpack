@@ -16,7 +16,7 @@ class Header extends React.Component{
                             <i className="fas fa-search"></i>
                         </button>
                         <button className="search_pic">
-                            <div class="img"></div>
+                            <div className="img"></div>
                         </button>
                     </div>
                 </div>
