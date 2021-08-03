@@ -30,14 +30,14 @@ module.exports={
             {
                 test: /\.(png|jpg|gif|jpe?g|svg)$/,
                 use: [
-                  {
-                    loader: 'file-loader',
-                    options: {
-                      name: '[name].[ext]',
-                      publicPath: './img',
-                    //   emitFile: false
-                    }  
-                  }
+                    {
+                        loader: 'file-loader',
+                        options: {
+                          name: 'img/[name].[ext]',
+                          publicPath: './img',
+                          emitFile: true
+                        }  
+                    }
                 ]
             },
             // {

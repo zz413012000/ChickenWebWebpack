@@ -1,0 +1,94 @@
+.container_item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+.container_item:hover{
+    transform: translateY(-5px);
+}
+.item-top{
+    margin-top: 10px;
+}
+.container_item .itemborder{
+    box-sizing: border-box;
+    flex:none;
+    width: 341px;
+    height: 104px;
+    border: 3px solid rgb(255,236,148);
+}
+.itemborder.itemborder-top{
+    border-right: none;
+    /* transform: translateX(5px) */
+}
+.itembutton{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    /* background-color: #ccc; */
+    z-index: 1;
+}
+.img-box{
+    position: relative;
+}
+.imgtopbird{
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+.imgtopbird img{
+    height: 104px;
+}
+.imgtopshiny{
+    position: absolute;
+    top: 70px;
+    left: -19px;
+}
+.imgtopshiny img{
+    height: 25px;
+}
+.imgtopcloud{
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+}
+.imgtopcloud img{
+    height: 78px;
+}
+.imgbottombird{
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
+}
+.imgbottombird img{
+    height: 112px;
+}
+.imgbottomcloud1{
+    position: absolute;
+    top: -96px;
+}
+.imgbottomcloud1 img{
+    height: 100px;
+}
+.imgbottomcloud2{
+    position: absolute;
+    bottom: -2px;
+}
+.imgbottomcloud2 img{
+    height: 75px;
+}
+.imgbottomshiny{
+    position: absolute;
+    right: -20px;
+    top: 10px;
+}
+.imgbottomshiny img{
+    height: 29px;
+}
+.transparentsBox{
+    flex:auto;
+    width: 100px;
+    height: 100px;
+    z-index: -2;
+}
