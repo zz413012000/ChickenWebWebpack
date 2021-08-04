@@ -1,9 +1,12 @@
 const path=require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports={
-    entry:"./src/index.js",
+    entry:{
+        main:'./src/js/main.js',
+        comicIndex:'./src/js/comicIndex.js'
+    },
     output:{
-        filename:"main.js",
+        filename:"js/[name].js",
         path:path.resolve(__dirname,"dist"),
         publicPath: '/ChickenWebWebpack/dist/',
     },
@@ -35,7 +38,7 @@ module.exports={
                         options: {
                           name: 'img/[name].[ext]',
                           publicPath: './img',
-                          emitFile: true
+                          emitFile: true,
                         }  
                     }
                 ]
@@ -52,9 +55,18 @@ module.exports={
             // }
         ]
     },
-    plugins: [new HtmlWebpackPlugin({
-        title:"首頁",
-        filename:"index.html",
-        template:"./src/index.html"
-    })]
+    plugins: [
+        new HtmlWebpackPlugin({
+            chunks:["main"],
+            title:"首頁",
+            filename:"index.html",
+            template:"./src/index.html"
+        }),
+        new HtmlWebpackPlugin({
+            chunks:["comicIndex"],
+            title:"ComicIndex",
+            filename:"comicIndex.html",
+            template:"./src/comicIndex.html"
+        })
+    ]
 }

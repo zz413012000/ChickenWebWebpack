@@ -1,0 +1,17 @@
+header{
+    max-width: 375px;
+    background-image: url("../img/comic/IMG_4787.JPG");
+    background-repeat:no-repeat;
+    /* background-size:100% auto; */
+    background-size:cover;
+    height: 279px;
+    box-sizing: border-box;
+    border:1px solid #000;
+    position: relative;
+}
+.description{
+    width: 170px;
+    height: 108px;
+    border:1px solid #000;
+    
+}
