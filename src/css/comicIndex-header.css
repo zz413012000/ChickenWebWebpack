@@ -12,7 +12,6 @@ header{
 .description{
     width: 170px;
     height: 108px;
-    border:1px solid #000;
     position: absolute;
     left: 44px;
     top: 126px;
@@ -20,29 +19,25 @@ header{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 
 }
 .description .txt{
     font-size: 10px;
     width: 100%;
-    /* height: ; */
-    border:1px solid #000;
-}
-.description .number{
-    border:1px solid #000;
 }
 .description .views{
     display: inline-block;
     width: 41px;
     height: 13px;
-    border:1px solid #000;
 }
 .description .like{
     display: inline-block;
     width: 41px;
     height: 13px;
-    border:1px solid #000;
+}
+.description .button{
+    margin-top: auto;
 }
 .description button{
     background: none;
