@@ -2,8 +2,8 @@ header{
     max-width: 375px;
     background-image: url("../img/comic/IMG_4787.JPG");
     background-repeat:no-repeat;
-    /* background-size:100% auto; */
-    background-size:cover;
+    background-size:100% auto;
+    /* background-size:cover; */
     height: 279px;
     box-sizing: border-box;
     border:1px solid #000;
@@ -13,5 +13,42 @@ header{
     width: 170px;
     height: 108px;
     border:1px solid #000;
-    
+    position: absolute;
+    left: 44px;
+    top: 126px;
+    font-size: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.description .txt{
+    font-size: 10px;
+    width: 100%;
+    /* height: ; */
+    border:1px solid #000;
+}
+.description .number{
+    border:1px solid #000;
+}
+.description .views{
+    display: inline-block;
+    width: 41px;
+    height: 13px;
+    border:1px solid #000;
+}
+.description .like{
+    display: inline-block;
+    width: 41px;
+    height: 13px;
+    border:1px solid #000;
+}
+.description button{
+    background: none;
+    border:none;
+    border:1px solid #000;
+    border-radius:29px ;
+    width: 95px;
+    height: 29px;
 }
