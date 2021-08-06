@@ -23,6 +23,11 @@ a>.img{
     border-right:1px solid #000;
     flex-shrink:0;
 }
+.img img{
+    width: 98%;
+    height: 98%;
+    object-fit:cover;
+}
 a>.instruction{
     border:1px solid #000;
     box-sizing: border-box;
