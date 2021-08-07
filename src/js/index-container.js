@@ -28,7 +28,7 @@ class Container extends React.Component{
                     <div className="container_item item-bottom">
                     <div className="img-box">
                         <div className="itemborder">
-                            <a href="https://www.facebook.com/%E9%9B%9E%E6%83%85%E5%9B%9B%E5%B0%84-%E9%A6%99%E9%9B%9E%E5%85%AB%E6%96%B9%E9%AD%94%E7%8E%8B-103017344415869">
+                            <a href="./comicIndex.html">
                                 <div className="itembutton"></div>
                             </a>
                         </div>
