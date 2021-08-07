@@ -21,7 +21,7 @@ class Header extends React.Component{
                     </div>
                     <div className="button">
                         <button>
-                            觀看第一話
+                            觀看第一話 &nbsp;>
                         </button>
                     </div>
                 </div>
