@@ -16,7 +16,14 @@ function Comment(){
                         <div className="share"></div>
                     </div>
                     <div className="menu_bottom">
-                        
+                        <div className="like">
+                            <div className="like_icon"></div>
+                            <div className="like_number"></div>
+                        </div>
+                        <div className="comment">
+                            <div className="comment-icon"></div>
+                            <div className="comment_number"></div>
+                        </div>
                     </div>
                 </div>
                 <div className="comment_area">
