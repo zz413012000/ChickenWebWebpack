@@ -5,8 +5,8 @@ function Comment(){
         <>
         <footer>
             <div className="creator">
-                <div className="creator_name"></div>
-                <div className="creator_note"></div>
+                <div className="creator_name">脆脆雞。作家</div>
+                <div className="creator_note">OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</div>
             </div>
             <div className="comment">
                 <div className="comment_menu">
