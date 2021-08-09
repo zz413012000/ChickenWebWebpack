@@ -27,7 +27,7 @@ class List extends React.Component{
         return (
             <ul>
                 <li>
-                    <a>
+                    <a href="comicView.html">
                         <div className="img">
                         <img srcSet="img/comic/1.png"/>
                         </div>
@@ -46,7 +46,7 @@ class List extends React.Component{
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="">
                         <div className="img">
                         <img srcSet="img/comic/2.png"/>
                         </div>
@@ -65,7 +65,7 @@ class List extends React.Component{
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="">
                         <div className="img">
                             <img srcSet="img/comic/3.png"/>
                         </div>
@@ -84,7 +84,7 @@ class List extends React.Component{
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="">
                         <div className="img">
                         <img srcSet="img/comic/4.png"/>
                         </div>
@@ -103,7 +103,7 @@ class List extends React.Component{
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="">
                         <div className="img">
                             <img srcSet="img/comic/5.png"/>
                         </div>
