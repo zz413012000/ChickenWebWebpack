@@ -1,32 +1,44 @@
 import React from "react";
 import "../css/comicIndex-list.css";
+import Episode from "./comicIndex-episode.js";
 class List extends React.Component{
     render(){
         let list=[
             {
                 no:1,
-                title:"［第一話］雞的顏值篇！"
+                title:"［第一話］雞的顏值篇！",
+                imgsrc:"img/comic/list/1.png"
             },
             {
                 no:2,
-                title:"［第二話］雞的命名篇"
+                title:"［第二話］雞的命名篇",
+                imgsrc:"img/comic/list/2.png"
             },
             {
                 no:3,
-                title:"［第三話］雞的教育篇"
+                title:"［第三話］雞的教育篇",
+                imgsrc:"img/comic/list/3.png"
             },
             {
                 no:4,
-                title:"［第四話］瘋子QQ篇"
+                title:"［第四話］瘋子QQ篇",
+                imgsrc:"img/comic/list/4.png"
             },
             {
                 no:5,
-                title:"［第五話］雞的邊緣果汁篇"
+                title:"［第五話］雞的邊緣果汁篇",
+                imgsrc:"img/comic/list/5.png"
             }
         ]
+        let episodesKey=-1;
         return (
             <ul>
-                <li>
+                {list.map((item)=>{
+                    episodesKey++;
+                    return <Episode key={episodesKey} data={list[episodesKey]}/>
+                })}
+                {/* <Episode data={list}/> */}
+                {/* <li>
                     <a href="./comicView.html">
                         <div className="img">
                         <img srcSet="img/comic/1.png"/>
@@ -120,7 +132,7 @@ class List extends React.Component{
                             {"#"+list[4].no}
                         </div>
                     </a>
-                </li>
+                </li> */}
             </ul>
         );
     }

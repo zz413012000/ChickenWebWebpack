@@ -42,13 +42,14 @@ a>.instruction{
 a>.serialNO{
     box-sizing: border-box;
     height: 69px;
-    width: 20px;
+    width: 40px;
     flex-shrink:1;
     text-align: right;
     margin-top: auto;
     margin-bottom: -14px;
-    padding-right: 10px;
+    padding-right: 20px;
     font-size: 1em;
+    color:rgb(116, 116, 116);
 }
 a .title{
     box-sizing: border-box;

@@ -1,10 +1,10 @@
 footer{
     box-sizing:border-box;
-    width: 375px;
+    max-width: 375px;
     /* border:1px solid #000; */
 }
 .creator{
-    width: 375px;
+    max-width: 375px;
     border:1px solid rgb(116,116,116);
     box-sizing:border-box;
 }
@@ -21,5 +21,5 @@ footer{
     padding: 18px;
     padding-top: 0;
     word-wrap: break-word;
-    font-size: .5em;
+    font-size: .7em;
 }
