@@ -3,7 +3,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports={
     entry:{
         main:'./src/js/main.js',
-        comicIndex:'./src/js/comicIndex.js'
+        comicIndex:'./src/js/comicIndex.js',
+        comicView:'./src/js/comicView.js'
     },
     output:{
         filename:"js/[name].js",
@@ -58,15 +59,21 @@ module.exports={
     plugins: [
         new HtmlWebpackPlugin({
             chunks:["main"],
-            title:"首頁",
+            title:"香雞八方魔王",
             filename:"index.html",
             template:"./src/index.html"
         }),
         new HtmlWebpackPlugin({
             chunks:["comicIndex"],
-            title:"ComicIndex",
+            title:"香雞八方魔王",
             filename:"comicIndex.html",
             template:"./src/comicIndex.html"
+        }),
+        new HtmlWebpackPlugin({
+            chunks:["comicView"],
+            title:"香雞八方魔王",
+            filename:"comicView.html",
+            template:"./src/comicView.html"            
         })
     ]
 }

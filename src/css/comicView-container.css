@@ -1,0 +1,19 @@
+article{
+    max-width: 375px;
+    height: 100%;
+    border-top: 1px solid transparent;
+    border-bottom:1px solid transparent;
+    box-sizing:border-box;
+    background-color: rgb(247, 247, 247);
+}
+article .img{
+    width: 375px;
+    height: 276px;
+    margin-bottom: 59px;
+    border:1px solid rgb(176,176,176);
+    background-color: #fff;
+    box-sizing:border-box;
+}
+article .img:first-of-type{
+    margin-top: 22px;
+}
