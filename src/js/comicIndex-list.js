@@ -1,13 +1,6 @@
 import React from "react";
 import "../css/comicIndex-list.css";
 import Episode from "./comicIndex-episode.js";
-// let src="./comic-list.json";
-// let list;
-// fetch(src).then(function(response){
-//     return response.json();
-// }).then(function(result){
-//     list=result;
-// })
 let list=[
     {
         "title":"［第一話］雞的顏值篇！",
@@ -38,7 +31,7 @@ class List extends React.Component{
                     console.log("index",index);
                     return <Episode 
                     key={index} 
-                    data={list[index]} 
+                    list={list[index]} 
                     no={index}/>
                 })}
             </ul>

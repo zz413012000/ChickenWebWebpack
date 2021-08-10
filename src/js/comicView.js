@@ -7,7 +7,7 @@ import "../css/index.css";
 var url = location.href;
 console.log("url",url);
 if(url.indexOf('?')!=-1){
-    var ary1=url.split('?');
+    var ary1=url.split('?'); //分出
     console.log("ary1",ary1);
     var ary2 = ary1[1].split('&');
     console.log("ary2",ary2);

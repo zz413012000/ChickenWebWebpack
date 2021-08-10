@@ -1,7 +1,7 @@
 import React from "react";
 export default class Episode extends React.Component{
     render(){
-        let src="img/comic/"+this.props.data.no+".png";
+        let src="img/comic/"+this.props.list.no+".png";
         let comicsrc="./comicView.html"+"?"+"id="+(this.props.no+1);
         console.log(comicsrc);
         return (
@@ -10,11 +10,11 @@ export default class Episode extends React.Component{
                     <a href={comicsrc}>
                         <div className="img">
                         {/* <img srcSet="img/comic/1.png"/> */}
-                        <img srcSet={this.props.data.imgsrc}></img>
+                        <img srcSet={this.props.list.imgsrc}></img>
                         </div>
                         <div className="instruction">
                             <div className="title">
-                                {this.props.data.title}
+                                {this.props.list.title}
                             </div>
                             <div className="like">
                                 <div className="like-icon"></div>
