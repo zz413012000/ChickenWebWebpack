@@ -1,12 +1,13 @@
 import React from "react";
-
-class Episode extends React.Component{
+export default class Episode extends React.Component{
     render(){
         let src="img/comic/"+this.props.data.no+".png";
+        let comicsrc="./comicView.html"+"?"+"id="+(this.props.no+1);
+        console.log(comicsrc);
         return (
             <>
             <li>
-                    <a href="./comicView.html">
+                    <a href={comicsrc}>
                         <div className="img">
                         {/* <img srcSet="img/comic/1.png"/> */}
                         <img srcSet={this.props.data.imgsrc}></img>
@@ -21,7 +22,7 @@ class Episode extends React.Component{
                             </div>
                         </div>
                         <div className="serialNO">
-                            {"#"+this.props.data.no}
+                            {"#"+(this.props.no+1)}
                         </div>
                     </a>
                 </li>
@@ -29,4 +30,3 @@ class Episode extends React.Component{
         );
     }
 }
-export default Episode;
