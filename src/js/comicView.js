@@ -7,14 +7,10 @@ import "../css/index.css";
 var url = location.href;
 console.log("url",url);
 if(url.indexOf('?')!=-1){
-    var ary1=url.split('?'); //分出
-    console.log("ary1",ary1);
+    var ary1=url.split('?');
     var ary2 = ary1[1].split('&');
-    console.log("ary2",ary2);
     var ary3 =ary2[0].split('=');
-    console.log("ary3",ary3);
-    var id=ary3[1]
-    console.log("id",id);
+    var id=ary3[1];
 }
 class App extends React.Component{
     render(){

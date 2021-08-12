@@ -3,7 +3,6 @@ export default class Episode extends React.Component{
     render(){
         let src="img/comic/"+this.props.list.no+".png";
         let comicsrc="./comicView.html"+"?"+"id="+(this.props.no+1);
-        console.log(comicsrc);
         return (
             <>
             <li>
