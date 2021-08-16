@@ -2,7 +2,7 @@ header{
     display: block;
     max-width: 375px;
     height: 239px;
-    background-image: url("../img/index/header.JPG");
+    background-image: url("../img/index/header.jpg");
     background-repeat:no-repeat;
     background-size:100% auto;
 }
@@ -26,7 +26,7 @@ header{
 .search-child .img{
     width: 100%;
     height: 100%;
-    background-image: url("../img/index/IMG_4712.PNG");
+    background-image: url("../img/index/hupi.png");
     background-repeat:no-repeat;
     background-size:100% auto;
 }

@@ -314,9 +314,9 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, style) {\
 /*!*********************************************!*\
   !*** ./src/img/comic/header-background.jpg ***!
   \*********************************************/
-/***/ ((module) => {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = \"./\" + \"img/header-background.e095a9.jpg\";\n\n//# sourceURL=webpack://ChickenWeb_Webpack/./src/img/comic/header-background.jpg?");
+eval("module.exports = __webpack_require__.p + \"src/img/comic/header-background.e095a9.jpg\";\n\n//# sourceURL=webpack://ChickenWeb_Webpack/./src/img/comic/header-background.jpg?");
 
 /***/ })
 
@@ -388,6 +388,11 @@ eval("module.exports = \"./\" + \"img/header-background.e095a9.jpg\";\n\n//# sou
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "/ChickenWebWebpack/dist/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
