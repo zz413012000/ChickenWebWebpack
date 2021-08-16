@@ -14,9 +14,7 @@ class List extends React.Component{
     }
     render(){
         const {error,isLoaded,list}=this.state;
-        console.log(error);
-        console.log(isLoaded);
-        console.log(list);
+        console.log(this.state);
         if(error){
             return <div>Error{error.message}</div>;
         }else if(!isLoaded){

@@ -2,7 +2,7 @@
 
 header{
     max-width: 375px;
-    background-image: url("../img/comic/IMG_4787.JPG");
+    background-image: url("../img/comic/header-background.jpg");
     background-repeat:no-repeat;
     background-size:110% auto;
     background-position:55% 40%;
@@ -29,14 +29,32 @@ header{
     font-size: 10px;
     width: 100%;
 }
+.description .number{
+    display: flex;
+    line-height: 13px;
+    text-align: right;
+}
 .description .views{
-    display: inline-block;
-    width: 41px;
+    display: flex;
+    justify-content: space-between;
+    width: 57px;
     height: 13px;
+    /* border:1px solid #000; */
+    margin-right: 4px;
+}
+.description .views img{
+    /* height: 13px; */
+    height: 126%;
+    margin-top: -2px;
 }
 .description .like{
-    display: inline-block;
-    width: 41px;
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    height: 13px;
+    /* border:1px solid #000; */
+}
+.description .like img{
     height: 13px;
 }
 .description .button{

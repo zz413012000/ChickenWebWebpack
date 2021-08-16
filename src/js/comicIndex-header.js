@@ -13,9 +13,11 @@ class Header extends React.Component{
                     </div>
                     <div className="number">
                         <div className="views">
+                            <img srcSet="img/comic/eye.png"></img>
                             10000
                         </div>
                         <div className="like">
+                            <img srcSet="img/comic/heart.png"></img>
                             2774
                         </div>
                     </div>
