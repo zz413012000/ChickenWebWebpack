@@ -1,22 +1,76 @@
 [
     {
         "title":"［第一話］雞的顏值篇！",
-        "imgsrc":"img/comic/list/1.png"
+        "imgsrc":"img/comic/list/1.png",
+        "viewSrc":[
+            "img/comic/view/1/a001.jpg",
+            "img/comic/view/1/a002.jpg",
+            "img/comic/view/1/a003.jpg",
+            "img/comic/view/1/a004.jpg",
+            "img/comic/view/1/a005.jpg",
+            "img/comic/view/1/a006.jpg",
+            "img/comic/view/1/a007.jpg",
+            "img/comic/view/1/a008.jpg",
+            "img/comic/view/1/a009.jpg",
+            "img/comic/view/1/a010.jpg"
+        ]
     },
     {
         "title":"［第二話］雞的命名篇",
-        "imgsrc":"img/comic/list/2.png"
+        "imgsrc":"img/comic/list/2.png",
+        "viewSrc":[
+            "img/comic/view/2/a001.jpg",
+            "img/comic/view/2/a002.jpg",
+            "img/comic/view/2/a003.jpg",
+            "img/comic/view/2/a004.jpg",
+            "img/comic/view/2/a005.jpg",
+            "img/comic/view/2/a006.jpg",
+            "img/comic/view/2/a007.jpg"
+        ]
     },
     {
         "title":"［第三話］雞的教育篇",
-        "imgsrc":"img/comic/list/3.png"
+        "imgsrc":"img/comic/list/3.png",
+        "viewSrc":[
+            "img/comic/view/3/a001.jpg",
+            "img/comic/view/3/a002.jpg",
+            "img/comic/view/3/a003.jpg",
+            "img/comic/view/3/a004.jpg",
+            "img/comic/view/3/a005.jpg",
+            "img/comic/view/3/a006.jpg",
+            "img/comic/view/3/a007.jpg"
+        ]
     },
     {
         "title":"［第四話］瘋子QQ篇",
-        "imgsrc":"img/comic/list/4.png"
+        "imgsrc":"img/comic/list/4.png",
+        "viewSrc":[
+            "img/comic/view/4/a001.jpg",
+            "img/comic/view/4/a002.jpg",
+            "img/comic/view/4/a003.jpg",
+            "img/comic/view/4/a004.jpg",
+            "img/comic/view/4/a005.jpg",
+            "img/comic/view/4/a006.jpg",
+            "img/comic/view/4/a007.jpg",
+            "img/comic/view/4/a008.jpg",
+            "img/comic/view/4/a009.jpg",
+            "img/comic/view/4/a010.jpg"
+        ]
     },
     {
         "title":"［第五話］雞的邊緣果汁篇",
-        "imgsrc":"img/comic/list/5.png"
+        "imgsrc":"img/comic/list/5.png",
+        "viewSrc":[
+            "img/comic/view/5/a001.jpg",
+            "img/comic/view/5/a002.jpg",
+            "img/comic/view/5/a003.jpg",
+            "img/comic/view/5/a004.jpg",
+            "img/comic/view/5/a005.jpg",
+            "img/comic/view/5/a006.jpg",
+            "img/comic/view/5/a007.jpg",
+            "img/comic/view/5/a008.jpg",
+            "img/comic/view/5/a009.jpg",
+            "img/comic/view/5/a010.jpg"
+        ]
     }
 ]

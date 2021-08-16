@@ -17,7 +17,7 @@ class App extends React.Component{
         return (
             <>
                 <Header episode={id}/>
-                <Container/>
+                <Container episode={id}/>
                 <Comment/>
             </>
         );

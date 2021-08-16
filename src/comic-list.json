@@ -1,7 +1,19 @@
 [
     {
         "title":"［第一話］雞的顏值篇！",
-        "imgsrc":"img/comic/list/1.png"
+        "imgsrc":"img/comic/list/1.png",
+        "viewSrc":[
+            "img/comic/view/1/a001.jpg",
+            "img/comic/view/1/a002.jpg",
+            "img/comic/view/1/a003.jpg",
+            "img/comic/view/1/a004.jpg",
+            "img/comic/view/1/a005.jpg",
+            "img/comic/view/1/a006.jpg",
+            "img/comic/view/1/a007.jpg",
+            "img/comic/view/1/a008.jpg",
+            "img/comic/view/1/a009.jpg",
+            "img/comic/view/1/a010.jpg"
+        ]
     },
     {
         "title":"［第二話］雞的命名篇",

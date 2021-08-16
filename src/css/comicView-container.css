@@ -8,7 +8,7 @@ article{
 }
 article .img{
     max-width: 375px;
-    height: 276px;
+    height: auto;
     margin-bottom: 59px;
     border:1px solid rgb(176,176,176);
     background-color: #fff;
@@ -16,4 +16,8 @@ article .img{
 }
 article .img:first-of-type{
     margin-top: 22px;
+}
+article .img img{
+    width: 100%;
+    vertical-align: middle;
 }

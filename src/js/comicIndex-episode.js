@@ -8,7 +8,6 @@ export default class Episode extends React.Component{
             <li>
                     <a href={comicsrc}>
                         <div className="img">
-                        {/* <img srcSet="img/comic/1.png"/> */}
                         <img srcSet={this.props.list.imgsrc}></img>
                         </div>
                         <div className="instruction">
