@@ -13,8 +13,7 @@ class List extends React.Component{
         }
     }
     render(){
-        const {error,isLoaded,list}=this.state;
-        console.log(this.state);
+        const {error,isLoaded,list}=this.state;         
         if(error){
             return <div>Error{error.message}</div>;
         }else if(!isLoaded){
@@ -23,6 +22,8 @@ class List extends React.Component{
             return (
                 <ul>
                     {list.map((item,index)=>{
+                        // if (index==0){
+                        // }
                         return <Episode 
                         key={index} 
                         list={list[index]} 
