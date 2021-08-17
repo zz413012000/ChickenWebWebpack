@@ -4,6 +4,7 @@ import "../css/comicIndex-header.css"
 class Header extends React.Component{
     move(){
         let comicsrc="./comicView.html"+"?"+"id=1";
+        
         window.location.href=comicsrc;
     }
     render(){
