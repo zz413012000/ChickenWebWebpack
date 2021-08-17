@@ -12,8 +12,9 @@ class List extends React.Component{
             isLoaded:false
         }
     }
+    _isMounted=false;
     render(){
-        const {error,isLoaded,list}=this.state;         
+        const {error,isLoaded,list}=this.state;
         if(error){
             return <div>Error{error.message}</div>;
         }else if(!isLoaded){
@@ -32,15 +33,18 @@ class List extends React.Component{
         }
     }
     componentDidMount(){
+        this._isMounted=true;
         let src="./comic-list.json";
         fetch(src)
             .then(res=>res.json())
             .then(
                 (result)=>{
-                    this.setState({
-                        isLoaded:true,
-                        list:result
-                    })
+                    if(this._isMounted) {
+                        this.setState({
+                            isLoaded:true,
+                            list:result
+                        })
+                    }
                 },
                 (error)=>{
                     this.setState({
@@ -49,6 +53,9 @@ class List extends React.Component{
                     })
                 }
             )
+    }
+    componentWillUnmount() {
+        this._isMounted = false;
     }
 }
 export default List;
