@@ -13,6 +13,7 @@ module.exports={
     },
     mode:"development",
     devServer:{
+        // devSver 的根目錄
         contentBase:"./dist"
     },
     module:{

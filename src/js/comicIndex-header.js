@@ -2,6 +2,10 @@ import React from "react";
 import "../css/comicIndex-header.css"
 
 class Header extends React.Component{
+    move(){
+        let comicsrc="./comicView.html"+"?"+"id=1";
+        window.location.href=comicsrc;
+    }
     render(){
         return (
         <>
@@ -21,7 +25,10 @@ class Header extends React.Component{
                             2774
                         </div>
                     </div>
-                    <div className="button">
+                    <div 
+                    className="button"
+                    onClick={this.move.bind(this)}
+                    >
                         <button>
                             觀看第一話 &nbsp;&gt;
                         </button>

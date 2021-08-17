@@ -22,8 +22,6 @@ class List extends React.Component{
             return (
                 <ul>
                     {list.map((item,index)=>{
-                        // if (index==0){
-                        // }
                         return <Episode 
                         key={index} 
                         list={list[index]} 
