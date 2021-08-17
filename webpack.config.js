@@ -14,7 +14,8 @@ module.exports={
     mode:"development",
     devServer:{
         // devSver 的根目錄
-        contentBase:"./dist"
+        contentBase:"./dist",
+        port: 9000,
     },
     module:{
         rules:[

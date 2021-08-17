@@ -1,12 +1,7 @@
 import React from "react";
-import "../css/comicIndex-header.css"
+import "../css/comicIndex-header.css";
 
 class Header extends React.Component{
-    move(){
-        let comicsrc="./comicView.html"+"?"+"id=1";
-        
-        window.location.href=comicsrc;
-    }
     render(){
         return (
         <>
@@ -28,7 +23,7 @@ class Header extends React.Component{
                     </div>
                     <div 
                     className="button"
-                    onClick={this.move.bind(this)}
+                    onClick={()=>{window.location.href="./comicView.html?id=1";}}
                     >
                         <button>
                             觀看第一話 &nbsp;&gt;
