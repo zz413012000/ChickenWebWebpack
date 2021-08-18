@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
 header{
     box-sizing:border-box;
-    max-width: 375px;
+    max-width: 425px;
     height: 65px;
     border:1px solid rgb(116,116,116);
     display:flex;
@@ -15,14 +15,14 @@ header .icon{
 }
 header .title{
     box-sizing:border-box;
-    width: 287px;
     height: 65px;
+    width: 337px;
+    flex-shrink:1;
     border:1px solid rgb(116,116,116);
-    padding: 10px;
+    text-align: center;
+    line-height: 65px;
     font-size: 1.2em;
     color:rgb(85, 85, 85);
-    display:flex;
-    align-items:center;
     font-family: 'Noto Sans TC', sans-serif;
 }
 header .btn{

@@ -1,5 +1,5 @@
 article{
-    max-width: 375px;
+    max-width: 425px;
     height: 100%;
     border-top: 1px solid transparent;
     border-bottom:1px solid transparent;
@@ -7,10 +7,9 @@ article{
     background-color: rgb(247, 247, 247);
 }
 article .img{
-    max-width: 375px;
+    max-width: 425px;
     height: auto;
     margin-bottom: 59px;
-    border:1px solid rgb(176,176,176);
     background-color: #fff;
     box-sizing:border-box;
 }
