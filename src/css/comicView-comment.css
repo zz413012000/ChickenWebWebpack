@@ -59,7 +59,7 @@ footer{
     border:1px solid rgb(231,231,231);
     border-radius: 10px;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color:rgb(50,50,50)
 } 
@@ -70,6 +70,10 @@ footer{
 .menu_top .like{
     width: 84px;
     height: 34px;
+}
+.menu_top .like img{
+    height: 43%;
+    margin-left: 5px;
 }
 .menu_top .share{
     width: 81px;
@@ -84,7 +88,6 @@ footer{
 .menu_bottom .menuBtn_bottom{
     width: 100px;
     height: 34px;
-    border:1px solid #000;
     display: flex;
 
 }
@@ -92,14 +95,24 @@ footer{
     margin-left: 19px;
 }
 .menu_bottom .like_icon{
-    background-color: #ccc;
     width: 35px;
     height: 34px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menu_bottom .like_icon img{
+    height: 80%;
 }
 .menu_bottom .comment-icon{
-    background-color: #ccc;
     width: 35px;
     height: 34px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menu_bottom .comment-icon img{
+    height: 80%;
 }
 .like_number{
     line-height: 34px;
@@ -109,11 +122,25 @@ footer{
     line-height: 34px;
     padding-left: 11px;
 }
+.comment_area{
+    position: relative;
+}
+.comment_cloud{
+    position: absolute;
+    width: 309px;
+    height: 173px;
+    top:109px;
+    right: 0;
+    z-index:-1;
+    display: flex;
+    /* justify-content: flex-end; */
+}
+.comment_cloud img{
+    width: 100%;
+}
 .commentBox{
     display: flex;
     flex-direction: column;
-    background-color: rgba(151, 151, 151, 0.493);
-    
 }
 .comment_head{
     display: flex;
@@ -126,6 +153,7 @@ footer{
     height: 31px;
     line-height:31px;
     font-weight: 700;
+    font-size: 1.2em;
 }
 .comment_head .commentTime{
     width: 110px;
@@ -139,7 +167,6 @@ footer{
 .comment_head .commentReport{
     width: 46px;
     height: 31px;
-    /* border:1px solid #000; */
     line-height: 31px;
     text-align: center;
     font-size: 14px;    
@@ -156,20 +183,28 @@ footer{
     border-left: 1px solid #000;
 }
 .comment_container{
-    display: flex;
     padding-left: 19px;
 }
 .comment_container .icon_best{
-    background-color: #ccc;
     width: 66px;
     height: 31px;
     line-height: 31px;
     text-align: center;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.comment_container .icon_best img{
+    width: 90%;
 }
 .comment_container .comment_contents{
     line-height: 31px;
 }
-.comment_lick{
+.comment_container .comment_contents::after{
+    content:"";
+    clear: both;
+}
+.comment_like{
     width: 118px;
     height: 20px;
     background-color: #ccc;
