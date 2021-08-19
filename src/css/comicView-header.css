@@ -43,6 +43,7 @@ header .btn{
     justify-content: center;
     align-items: center;
     position: relative;
+    cursor:pointer;
 }
 header .btn img{
     height: 18px;
