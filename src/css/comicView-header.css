@@ -3,23 +3,31 @@ header{
     box-sizing:border-box;
     max-width: 425px;
     height: 65px;
-    border:1px solid rgb(116,116,116);
+    /* border:1px solid rgb(116,116,116); */
     display:flex;
 }
 header .icon{
     box-sizing:border-box;
     width: 44px;
     height: 65px;
-    border:1px solid rgb(116,116,116);
+    /* border:1px solid rgb(116,116,116); */
     flex-shrink: 0;
+    display: flex;
+    
+}
+header .icon img{
+    width: 75%;
+    display: block;
+    margin: auto;
 }
 header .title{
     box-sizing:border-box;
     height: 65px;
     width: 337px;
     flex-shrink:1;
-    border:1px solid rgb(116,116,116);
-    text-align: center;
+    padding-left: 9px;
+    /* border:1px solid rgb(116,116,116); */
+    text-align: left;
     line-height: 65px;
     font-size: 1.2em;
     color:rgb(85, 85, 85);
@@ -29,6 +37,36 @@ header .btn{
     box-sizing:border-box;
     width: 44px;
     height: 65px;
-    border:1px solid rgb(116,116,116);
+    /* border:1px solid rgb(116,116,116); */
     flex-shrink:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header .btn img{
+    height: 18px;
+}
+.btn .btn_menu{
+    position: absolute;
+    border:1px solid rgb(211, 211, 211);
+    bottom: -37px;
+    right: 0;
+    background-color: #fff;
+    display:none;
+}
+.btn .btn_menu-on{
+    display: block;
+}
+.btn_menu .btn_share{
+    box-sizing: border-box;
+    width:135px;
+    height: 37px;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+}
+.btn_menu .btn_share img{
+    height: 37%;
+    margin-left: 6px;
 }

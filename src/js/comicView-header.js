@@ -6,7 +6,8 @@ class Header extends React.Component{
         this.state={
             error:null,
             isLoaded:false,
-            list:[]
+            list:[],
+            on:false
         };
     }
     componentDidMount(){
@@ -27,6 +28,9 @@ class Header extends React.Component{
             }
         )
     }
+    toggleMenu(){
+        this.setState({on:!this.state.on});
+    }
     render(){
         const {error,isLoaded,list}=this.state;
         if(error){
@@ -37,10 +41,19 @@ class Header extends React.Component{
             return (
             <>
                 <header>
-                    <div className="icon"></div>
-                    {/* <div className="title">{list[props.episode-1].title}</div> */}
-                    <div className="title">{list[this.props.episode-1].title}</div>
-                    <div className="btn"></div>
+                    <div className="icon">
+                        <img srcSet="img/view/icon-yellow.png"></img>
+                    </div>
+                    <div className="title"># {this.props.episode} {list[this.props.episode-1].title}</div>
+                    <div className="btn" onClick={this.toggleMenu.bind(this)}>
+                        <img srcSet="img/view/header_btn.png"></img>
+                        <div className={this.state.on?"btn_menu btn_menu-on":"btn_menu"}>
+                            <div className="btn_share">
+                                分享
+                                <img srcSet="img/view/btn_share.png"></img>
+                            </div>
+                        </div>
+                    </div>
                 </header>
             </>
             );

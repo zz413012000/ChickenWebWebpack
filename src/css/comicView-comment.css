@@ -24,8 +24,10 @@ footer{
     align-items:center;
     font-size: 1.2em;
     font-weight: 600;
+    color:rgb(116,116,116);
 }
 .creator_note{
+    color:rgb(148, 148, 148);
     padding: 18px;
     padding-top: 0;
     word-wrap: break-word;
@@ -54,11 +56,12 @@ footer{
 }
 
 .menu_top .menuBtn_top{
-    border:1px solid rgb(116,116,116);
+    border:1px solid rgb(231,231,231);
     border-radius: 10px;
     display:flex;
     justify-content: space-around;
     align-items: center;
+    color:rgb(50,50,50)
 } 
 .menu_top .collect{
     width: 98px;
@@ -75,7 +78,6 @@ footer{
 .menu_bottom{
     height: 69px;
     color: rgb(116,116,116);
-    /* border:1px solid rgb(116,116,116); */
     display: flex;
     align-items: center;
 }
@@ -110,12 +112,14 @@ footer{
 .commentBox{
     display: flex;
     flex-direction: column;
-    background-color: rgba(204, 204, 204, 0.13);
+    background-color: rgba(151, 151, 151, 0.493);
+    
 }
 .comment_head{
     display: flex;
     position: relative;
     padding-left: 19px;
+    margin-top: 27px;
 }
 .comment_head .userName{
     margin-right: auto;
@@ -171,6 +175,7 @@ footer{
     background-color: #ccc;
     margin-top: 27px;
     margin-left: auto;
+    margin-bottom: 27px;
     text-align: center;
     font-size: 10px;
     line-height: 20px;

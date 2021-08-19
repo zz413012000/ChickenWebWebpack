@@ -1,6 +1,6 @@
 [
     {
-        "title":"［第一話］雞的顏值篇！",
+        "title":"雞的顏值篇！",
         "imgsrc":"img/comic/list/1.png",
         "viewSrc":[
             "img/comic/view/1/a001.jpg",
@@ -16,7 +16,7 @@
         ]
     },
     {
-        "title":"［第二話］雞的命名篇",
+        "title":"雞的命名篇",
         "imgsrc":"img/comic/list/2.png",
         "viewSrc":[
             "img/comic/view/2/a001.jpg",
@@ -29,7 +29,7 @@
         ]
     },
     {
-        "title":"［第三話］雞的教育篇",
+        "title":"雞的教育篇",
         "imgsrc":"img/comic/list/3.png",
         "viewSrc":[
             "img/comic/view/3/a001.jpg",
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "title":"［第四話］瘋子QQ篇",
+        "title":"瘋子QQ篇",
         "imgsrc":"img/comic/list/4.png",
         "viewSrc":[
             "img/comic/view/4/a001.jpg",
@@ -58,7 +58,7 @@
         ]
     },
     {
-        "title":"［第五話］雞的邊緣果汁篇",
+        "title":"雞的邊緣果汁篇",
         "imgsrc":"img/comic/list/5.png",
         "viewSrc":[
             "img/comic/view/5/a001.jpg",
