@@ -7,7 +7,6 @@ class List extends React.Component{
         super(props);
         this.state={
             list:list,
-            step:1,
             error:null,
             isLoaded:false,
             squares:[]

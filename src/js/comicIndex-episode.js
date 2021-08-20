@@ -25,7 +25,6 @@ export default class Episode extends React.Component{
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="serialNO clicked"> */}
                         <div className={this.props.isClick?"serialNO clicked":"serialNO"}>
                             {"#"+(this.props.no+1)}
                         </div>
