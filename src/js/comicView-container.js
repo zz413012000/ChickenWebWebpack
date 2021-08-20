@@ -11,7 +11,6 @@ class Container extends React.Component{
     }
     render(){
         const {error,isLoaded,list}=this.state;
-        console.log("list",list);
         if(error){
             return <div>Error:{error.message}</div>
         }else if(!isLoaded){
@@ -39,7 +38,6 @@ class Container extends React.Component{
             (result)=>{
                 let currentEpisode=this.props.episode;
                 let data=result[currentEpisode-1].viewSrc;
-                console.log("data",data);
                 this.setState({
                     isLoaded:true,
                     list:data

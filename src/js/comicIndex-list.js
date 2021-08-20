@@ -9,12 +9,19 @@ class List extends React.Component{
             list:list,
             step:1,
             error:null,
-            isLoaded:false
+            isLoaded:false,
+            squares:[]
         }
     }
     _isMounted=false;
+    handleClick(index){
+        const squares = this.state.squares.slice();
+        squares[index] =true;
+        this.setState({squares: squares});
+    }
     render(){
         const {error,isLoaded,list}=this.state;
+        console.log(this.state.squares);
         if(error){
             return <div>Error{error.message}</div>;
         }else if(!isLoaded){
@@ -26,7 +33,10 @@ class List extends React.Component{
                         return <Episode 
                         key={index} 
                         list={list[index]} 
-                        no={index}/>
+                        no={index}
+                        isClick={this.state.squares[index]}
+                        onClick={()=>this.handleClick(index)}
+                        />
                     })}
                 </ul>
             );
@@ -42,7 +52,8 @@ class List extends React.Component{
                     if(this._isMounted) {
                         this.setState({
                             isLoaded:true,
-                            list:result
+                            list:result,
+                            squares:Array(result.length).fill(null)
                         })
                     }
                 },

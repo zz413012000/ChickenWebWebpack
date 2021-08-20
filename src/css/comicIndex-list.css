@@ -71,11 +71,18 @@ a .like{
     box-sizing: border-box;
     width: 14px;
     height: 15px;
-    /* border:1px solid rgb(219, 219, 219); */
+    margin-right: 7px;
+}
+.like .like-icon img{
+    height: 100%;
+    margin-top:2px;
 }
 .like .like-number{
     box-sizing: border-box;
     width: 53px;
     height: 15px;
-    /* border:1px solid rgb(219, 219, 219); */
+    color:rgb(116, 116, 116);
+}
+.clicked{
+    background-color: #ccc;
 }

@@ -40,7 +40,7 @@ class Header extends React.Component{
         }else{
             return (
             <>
-                <header>
+                <header id="header">
                     <div className="icon">
                         <img srcSet="img/view/icon-yellow.png"></img>
                     </div>
