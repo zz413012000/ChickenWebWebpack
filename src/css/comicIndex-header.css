@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
 
 header{
-    max-width: 375px;
+    max-width: 425px;
     background-image: url("../img/comic/header-background.jpg");
     background-repeat:no-repeat;
     background-size:110% auto;
