@@ -17,8 +17,8 @@ class App extends React.Component{
     render(){
         return (
             <>
-                {/* <Header episode={id}/> */}
-                {/* <Container episode={id}/> */}
+                <Header episode={id}/>
+                <Container episode={id}/>
                 <Comment/>
                 <FooterMenu/>
             </>
