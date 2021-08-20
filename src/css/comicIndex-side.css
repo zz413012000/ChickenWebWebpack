@@ -1,7 +1,12 @@
 .side{
-    border:1px solid #000;
-    max-width: 375px;
+    max-width: 425px;
+    margin: 1px 0;
     height: 47px;
     box-sizing: border-box;
-    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side img{
+    height: 100%;
 }

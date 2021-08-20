@@ -4,7 +4,7 @@ function Side(){
     return (
         <>
         <div className="side">
-            
+            <img srcSet="img/comic/side.png"></img>
         </div>
         </>
     );

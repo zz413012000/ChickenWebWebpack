@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Header from "./comicIndex-header.js";
 import Side from "./comicIndex-side.js";
 import List from "./comicIndex-list.js"
+import Footer from "./comicIndex-footer.js";
 import "../css/index.css"
 class App extends React.Component{
     render(){
@@ -11,6 +12,7 @@ class App extends React.Component{
                 <Header/>
                 <Side/>
                 <List/>
+                <Footer />
             </>
         );
     }
