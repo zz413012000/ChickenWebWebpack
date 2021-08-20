@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Header from "./comicView-header.js";
 import Container from "./comicView-container.js";
 import Comment from "./comicView-comment.js";
+import FooterMenu  from "./comicView-footermenu.js";
 import "../css/index.css";
 var url = location.href;
 console.log("url",url);
@@ -16,9 +17,10 @@ class App extends React.Component{
     render(){
         return (
             <>
-                <Header episode={id}/>
-                <Container episode={id}/>
+                {/* <Header episode={id}/> */}
+                {/* <Container episode={id}/> */}
                 <Comment/>
+                <FooterMenu/>
             </>
         );
     }

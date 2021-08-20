@@ -1,0 +1,39 @@
+.FooterMenu{
+    display: flex;
+    max-width:425px;
+    margin-top: 37px;
+    margin-bottom: 18px;
+    justify-content: flex-end;
+    
+}
+.FooterMenu_btn{    
+    width: 55px;
+    height: 55px;
+    box-sizing: border-box;
+    margin: 0 19px;
+}
+.FooterMenu .anchor{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-right: auto;
+}
+.anchor img{
+    width: 78%;
+}
+.FooterMenu .PreviousPage{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.PreviousPage img{
+    width: 68%;
+}
+.FooterMenu .NextPage{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.NextPage img{
+    width: 68%;
+}

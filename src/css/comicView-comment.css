@@ -35,14 +35,12 @@ footer{
 }
 .comment{
     max-width:425px;
-    height: 360px;
 }
 .comment::before{
     content:"";
     position: absolute;
-    left: 0;
+    left: 2%;
     right: 0;
-    margin-left: 2%;
     width: 95%;
     border-top:1px solid rgb(231,231,231);
 }
@@ -178,6 +176,7 @@ footer{
     height: 10px;
     top: 10px;
     bottom: 0;
+    box-sizing: border-box;
     margin-left: -8px;
     border-left: 1px solid #000;
 }
@@ -206,11 +205,19 @@ footer{
 .comment_like{
     width: 118px;
     height: 20px;
-    background-color: #ccc;
+    background-color: rgba(252,252,252);
     margin-top: 27px;
     margin-left: auto;
     margin-bottom: 27px;
     text-align: center;
     font-size: 10px;
     line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment_like img{
+    height: 56%;
+    margin-right: 4px;
+    margin-top: -3px;
 }

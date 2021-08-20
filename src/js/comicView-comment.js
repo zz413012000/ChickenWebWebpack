@@ -38,8 +38,7 @@ function Comment(){
                         </div>
                     </div>
                 </div>
-                <div className="comment_area">
-                    
+                <div className="comment_area">                    
                     <div className="commentBox">
                         <div className="comment_head">
                             <div className="userName">小雞特攻隊</div>
@@ -53,7 +52,7 @@ function Comment(){
                             <div className="comment_contents">真是無法無天的雞仔!真是無法無天的雞仔!真是無法無天的雞仔!真是無法無天的雞仔!真是無法無天的雞仔!</div>
                         </div>
                         <div className="comment_like">
-                            讚 30
+                            <img srcSet="img/view/like.png"></img> 30
                         </div>
                     </div>
                     <div className="commentBox">      
@@ -69,7 +68,7 @@ function Comment(){
                             <div className="comment_contents">真是無法無天的雞仔!真是無法無天的雞仔!真是無法無天的雞仔!真是無法無天的雞仔!真是無法無天的雞仔!</div>
                         </div>
                         <div className="comment_like">
-                            讚 30
+                            <img srcSet="img/view/like.png"></img> 30
                         </div>
                     </div>
                     <div className="comment_cloud">
