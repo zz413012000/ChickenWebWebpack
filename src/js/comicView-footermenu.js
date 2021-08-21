@@ -20,11 +20,25 @@ export default class FooterMenu extends React.Component{
             window.location.href=src;
         }
     }
+    scrollToAnchor(anchorName){
+        console.log(anchorName);
+        if(anchorName){
+            let anchorElement=document.getElementById("header");
+            if(anchorElement){
+                anchorElement.scrollIntoView({
+                    block:"start",
+                    behavior:"smooth"
+                });
+            }
+        }
+    }
     render(){
         return (
             <>
                 <div className="FooterMenu">
-                    <a href="#header" className="anchor FooterMenu_btn">
+                    <a
+                    onClick={()=>this.scrollToAnchor("header")}
+                    className="anchor FooterMenu_btn">
                         <img srcSet="img/view/anchor.png"></img>
                     </a>
                     <div 
