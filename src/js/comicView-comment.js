@@ -4,8 +4,10 @@ let data="✨ 漫畫更新!!雞的顏值篇!! ✨\n💗鳥奴們總是能一眼�
 let str=data.replace(/(\r\n)|(\n)/g,"<br/>");
 function Comment(props){
     // let src="./comicView.html"+"?id="+(props.episode);
-    let src="./comicIndex.html";
+    let src="https://zz413012000.github.io/ChickenWebWebpack/dist/comicView.html?id="+(props.episode);
     console.log("src",src);
+    let src2="https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(src);
+    console.log("src2",src2);
     return (
         <>
         <footer>
@@ -25,7 +27,7 @@ function Comment(props){
                             <img srcSet="img/view/btn_like.png"></img>
                         </div>
                         <div className="share menuBtn_top fb-share-button" data-href={src} data-layout="button" data-size="large">
-                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php" className="fb-xfbml-parse-ignore">分享
+                            <a target="_blank"  className="fb-xfbml-parse-ignore">分享
                             </a>
                         </div>
                     </div>
