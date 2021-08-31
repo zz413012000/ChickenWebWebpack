@@ -8,7 +8,6 @@ export default class FooterMenu extends React.Component{
         let src="./comicView.html";
         if(this.props.episode!=0){
             src+="?id="+(this.props.episode-1);
-            console.log(src);
             window.location.href=src;
         }
     }
@@ -21,7 +20,6 @@ export default class FooterMenu extends React.Component{
         }
     }
     scrollToAnchor(anchorName){
-        console.log(anchorName);
         if(anchorName){
             let anchorElement=document.getElementById("header");
             if(anchorElement){

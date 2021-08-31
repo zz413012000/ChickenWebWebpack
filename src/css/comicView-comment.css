@@ -52,7 +52,10 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
-
+.menu_top .fb-xfbml-parse-ignore{
+    text-decoration: none;
+    color:rgb(50,50,50)
+}
 .menu_top .menuBtn_top{
     border:1px solid rgb(231,231,231);
     border-radius: 10px;
