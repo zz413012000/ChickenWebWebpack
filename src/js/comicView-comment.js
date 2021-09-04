@@ -6,8 +6,6 @@ function Comment(props){
     console.log(location.href);
     let src=location.href.split("?")[0];
     console.log("src1",src);
-    // let src="https://zz413012000.github.io/ChickenWebWebpack/dist/comicView.html?id="+(props.episode);
-    // console.log("src",src);
     let src2="https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(src);
     console.log("src2",src2);
     return (
