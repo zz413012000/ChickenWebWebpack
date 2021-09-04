@@ -5,7 +5,7 @@
 
 1.展示漫畫作品  
 
-	( 將圖片路徑寫在JSON檔，在使用fetch與conponentDidMount將資料接過來)  
+    ( 將圖片路徑寫在JSON檔，在使用fetch與conponentDidMount將資料接過來)  
 
 2.漫畫話數自動排序  
 
