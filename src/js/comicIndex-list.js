@@ -12,7 +12,7 @@ class List extends React.Component{
             squares:[]
         }
     }
-    _isMounted=false;
+    _isMounted=false; // 用來檢查 componentDidMount 之後才將 fetch 的資料接上去
     handleClick(index){
         const squares = this.state.squares.slice();
         squares[index] =true;

@@ -20,16 +20,26 @@ if(url.indexOf('?')!=-1){
     id=ary4[1];
     console.log("id",id);
 }
-class App extends React.Component{
-    render(){
-        return (
-            <>
-                <Header episode={id}/>
-                <Container episode={id}/>
-                <Comment episode={id}/>
-                <FooterMenu episode={id}/>
-            </>
-        );
-    }
+function App(){
+    return (
+        <>
+            <Header episode={id}/>
+            <Container episode={id}/>
+            <Comment episode={id}/>
+            <FooterMenu episode={id}/>
+        </>
+    )
 }
+// class App extends React.Component{
+//     render(){
+//         return (
+//             <>
+//                 <Header episode={id}/>
+//                 <Container episode={id}/>
+//                 <Comment episode={id}/>
+//                 <FooterMenu episode={id}/>
+//             </>
+//         );
+//     }
+// }
 ReactDOM.render(<App/>,document.getElementById("root"));

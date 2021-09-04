@@ -5,16 +5,26 @@ import Side from "./comicIndex-side.js";
 import List from "./comicIndex-list.js"
 import Footer from "./comicIndex-footer.js";
 import "../css/index.css"
-class App extends React.Component{
-    render(){
-        return (
-            <>
-                <Header/>
-                <Side/>
-                <List/>
-                <Footer />
-            </>
-        );
-    }
+function App(){
+    return (
+        <>
+            <Header/>
+            <Side/>
+            <List/>
+            <Footer />
+        </>
+    )
 }
+// class App extends React.Component{
+//     render(){
+//         return (
+//             <>
+//                 <Header/>
+//                 <Side/>
+//                 <List/>
+//                 <Footer />
+//             </>
+//         );
+//     }
+// }
 ReactDOM.render(<App/>,document.getElementById("root"));

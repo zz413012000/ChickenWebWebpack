@@ -3,9 +3,11 @@ import "../css/comicView-comment.css";
 let data="✨ 漫畫更新!!雞的顏值篇!! ✨\n💗鳥奴們總是能一眼辨認出自己的主子!💗\n鳥友敲碗的 「小雞評比篇01 」終於來啦！\n是說...文鳥到底要怎麼從外觀上分不同呢??\n\n之前看過有人可以一眼分出自己養的10隻蜥蜴，真是超厲害啊!🤩🤩";
 let str=data.replace(/(\r\n)|(\n)/g,"<br/>");
 function Comment(props){
-    // let src="./comicView.html"+"?id="+(props.episode);
-    let src="https://zz413012000.github.io/ChickenWebWebpack/dist/comicView.html?id="+(props.episode);
-    console.log("src",src);
+    console.log(location.href);
+    let src=location.href.split("?")[0];
+    console.log("src1",src);
+    // let src="https://zz413012000.github.io/ChickenWebWebpack/dist/comicView.html?id="+(props.episode);
+    // console.log("src",src);
     let src2="https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(src);
     console.log("src2",src2);
     return (
