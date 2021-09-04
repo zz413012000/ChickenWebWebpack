@@ -1,6 +1,6 @@
 # ChickenWebWebpack
 插畫師個人品牌網站(手機板)
-使用技術:CSS、Javascript、AJAX、React、JSX、Webpack  
+使用技術:CSS、Javascript、AJAX、React、JSX、Webpack
 1.展示漫畫作品
 ( 將圖片路徑寫在JSON檔，在使用fetch與conponentDidMount將資料接過來)
 2.漫畫話數自動排序
