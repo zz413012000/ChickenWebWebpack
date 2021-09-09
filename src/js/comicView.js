@@ -10,15 +10,15 @@ var url = location.href;
 var id;
 if(url.indexOf('?')!=-1){  
     var ary1=url.split('?');
-    console.log("ary1",ary1);
+    // console.log("ary1",ary1);
     var ary2 = ary1[1].split('&');
-    console.log("ary2",ary2);
+    // console.log("ary2",ary2);
     var ary3 =ary2[0].split('#');
-    console.log("ary3",ary3);
+    // console.log("ary3",ary3);
     var ary4 =ary3[0].split('=');
-    console.log("ary4",ary4);
+    // console.log("ary4",ary4);
     id=ary4[1];
-    console.log("id",id);
+    // console.log("id",id);
 }
 function App(){
     return (
