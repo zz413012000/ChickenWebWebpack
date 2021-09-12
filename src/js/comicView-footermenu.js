@@ -16,6 +16,7 @@ class FooterMenu extends React.Component{
             window.location.href=src;
         }
     }
+    // 錨點功能
     scrollToAnchor(anchorName){
         if(anchorName){
             let anchorElement=document.getElementById(anchorName);
