@@ -4,9 +4,10 @@ let data="✨ 漫畫更新!!雞的顏值篇!! ✨\n💗鳥奴們總是能一眼�
 let str=data.replace(/(\r\n)|(\n)/g,"<br/>");
 function Comment(props){
     // let src=location.href.split("?")[0];
-    let src=location.origin+location.pathname;
-    // console.log(src);
-    // console.log(location.origin+location.pathname);
+    // let src=location.origin+location.pathname;
+    let src=location.href;
+    console.log(src);
+    // console.log(location.href);
     let src2="https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(src);
     return (
         <>
