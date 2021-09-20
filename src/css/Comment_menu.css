@@ -1,0 +1,91 @@
+.comment_menu::before{
+    content:"";
+    position: absolute;
+    left: 2%;
+    right: 0;
+    width: 95%;
+    border-top:1px solid rgb(231,231,231);
+}
+.comment_menu{
+    height: 149px;
+}
+.menu_top{
+    height:80px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu_top .fb-xfbml-parse-ignore{
+    text-decoration: none;
+    color:rgb(50,50,50)
+}
+.menu_top .menuBtn_top{
+    border:1px solid rgb(231,231,231);
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(50,50,50)
+} 
+.menu_top .collect{
+    width: 98px;
+    height: 34px;
+}
+.menu_top .like{
+    width: 84px;
+    height: 34px;
+}
+.menu_top .like img{
+    height: 43%;
+    margin-left: 5px;
+}
+.menu_top .share{
+    width: 81px;
+    height: 34px;
+}
+.menu_bottom{
+    height: 69px;
+    color: rgb(116,116,116);
+    display: flex;
+    align-items: center;
+}
+.menu_bottom .menuBtn_bottom{
+    width: 100px;
+    height: 34px;
+    display: flex;
+
+}
+.menu_bottom .like_btn{
+    margin-left: 19px;
+}
+.menu_bottom .like_icon{
+    width: 35px;
+    height: 34px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menu_bottom .like_icon img{
+    height: 80%;
+}
+.menu_bottom .comment-icon{
+    width: 35px;
+    height: 34px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menu_bottom .comment-icon img{
+    height: 80%;
+}
+.like_number{
+    line-height: 34px;
+    padding-left: 11px;
+}
+.comment_number{
+    line-height: 34px;
+    padding-left: 11px;
+}
+.comment_area{
+    position: relative;
+}

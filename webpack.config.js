@@ -4,7 +4,8 @@ module.exports={
     entry:{
         main:'./src/js/main.js',
         comicIndex:'./src/js/comicIndex.js',
-        comicView:'./src/js/comicView.js'
+        comicView:'./src/js/comicView.js',
+        comicComment:'./src/js/comicComment.js'
     },
     output:{
         filename:"js/[name].js",
@@ -66,6 +67,12 @@ module.exports={
             title:"香雞八方魔王",
             filename:"comicView.html",
             template:"./src/comicView.html"            
-        })
+        }),
+        new HtmlWebpackPlugin({
+            chunks:["comicComment"],
+            title:"香雞八方魔王",
+            filename:"comicComment.html",
+            template:"./src/comicComment.html"            
+        }),
     ]
 }
