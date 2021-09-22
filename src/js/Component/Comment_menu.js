@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Comment_menu.css"
+import "../../css/Comment_menu.css"
 function Comment_menu(){    
     let src=location.href;
     let src2="https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(src);

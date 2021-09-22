@@ -1,5 +1,5 @@
 import React from "react"
-import "../css/CommentBox.css";
+import "../../css/CommentBox.css";
 function CommentBox(){
     return (
         <>

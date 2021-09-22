@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Comment_menu from"./Comment_menu.js";
-import CommentBox from "./CommentBox.js";
+import InputComment from "./comicComment-inputComment.js"
+import Comment_menu from"./Component/Comment_menu.js";
+import CommentBox from "./Component/CommentBox.js";
 function App(){
     return (
         <>
+            <InputComment/>
             <div className="comment">
                 <Comment_menu/>
                 <div className="comment_area">

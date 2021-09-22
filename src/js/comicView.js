@@ -30,16 +30,4 @@ function App(){
         </>
     )
 }
-// class App extends React.Component{
-//     render(){
-//         return (
-//             <>
-//                 <Header episode={id}/>
-//                 <Container episode={id}/>
-//                 <Comment episode={id}/>
-//                 <FooterMenu episode={id}/>
-//             </>
-//         );
-//     }
-// }
 ReactDOM.render(<App/>,document.getElementById("root"));
