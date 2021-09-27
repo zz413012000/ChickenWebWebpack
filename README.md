@@ -1,5 +1,6 @@
 # ChickenWebWebpack
 插畫師個人品牌網站(手機板)  
+GitHubPage: https://zz413012000.github.io/ChickenWebWebpack/dist/index.html
 
 使用技術:CSS、Javascript、AJAX、React、JSX、Webpack  
 
