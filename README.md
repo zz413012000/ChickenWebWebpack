@@ -24,5 +24,5 @@ GitHubPage: https://zz413012000.github.io/ChickenWebWebpack/dist/index.html
 
 6.留言板功能  ( 進行中 )  
 
-    ( 完成了留言版切版，預期要將資料藉由Api 將資料存於 Google Sheets上 )  
+    ( 完成了留言版切版，預期要將資料藉由Api 將資料存於 MongoDB)  
    
